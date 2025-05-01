@@ -142,8 +142,8 @@ class Space:
 
 
 
-#координаты никогда не должны быть похожими
-#если планета находится на расстоянии по норму  от 8 до 3 это спутник
+#coords cant be same 
+#if the planet is at a distance of 8 to 3 according to the norm, it is a satellite
 agents = [{'coords': [0, 0, 0],
     'speed': [0, 0, 0],
     'mass': 1e12,
